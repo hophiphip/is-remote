@@ -1,0 +1,27 @@
+{
+  "name": "is-remote",
+  "version": "1.0.0",
+  "description": "Determine if a process is running on a remote desktop session",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "prepublish": "npm run build",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "hophiphip",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/ref-napi": "^3.0.4",
+    "@typescript-eslint/eslint-plugin": "^5.26.0",
+    "@typescript-eslint/parser": "^5.26.0",
+    "eslint": "^8.16.0",
+    "prettier": "2.6.2",
+    "typescript": "^4.7.2"
+  },
+  "dependencies": {
+    "ffi-napi": "^4.0.3",
+    "ref-napi": "^3.0.3"
+  }
+}
